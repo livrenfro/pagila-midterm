@@ -14,7 +14,7 @@
  */
 
 
--- title form film
+-- title from film
 -- actor names from actor 
 -- customer name from customer
 -- address, city, country names from address, city, country
@@ -43,6 +43,7 @@ JOIN country USING(country_id)
 WHERE customer.first_name LIKE '%F%' 
 OR customer.last_name LIKE '%F%'
 OR address.address LIKE '%F%'
+OR address.address2 LIKE '%F%'
 OR city.city LIKE '%F%'
 OR country.country LIKE '%F%';
 
