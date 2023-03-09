@@ -45,6 +45,6 @@ OR customer.last_name LIKE '%F%'
 OR address.address LIKE '%F%'
 OR address.address2 LIKE '%F%'
 OR city.city LIKE '%F%'
-OR country.country LIKE '%F%';
-
+OR country.country LIKE '%F%'
+ORDER BY title;
 
